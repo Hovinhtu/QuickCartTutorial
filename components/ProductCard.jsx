@@ -39,7 +39,7 @@ const ProductCard = ({ product }) => {
                             key={index}
                             className="h-3 w-3"
                             src={
-                                index < Math.floor(4)
+                                index < Math.floor(4.5)
                                     ? assets.star_icon
                                     : assets.star_dull_icon
                             }
